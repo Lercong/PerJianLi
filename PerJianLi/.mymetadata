@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="PerJianLi"
+  id="myeclipse.1491894206206"
+  context-root="/PerJianLi"
+  j2ee-spec="5.0"
+  archive="PerJianLi.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+
+  <servlet>
+    <servlet-name>insertjl</servlet-name>
+    <servlet-class>com.common.insertjl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>dbconn</servlet-name>
+    <servlet-class>com.db.dbconn</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>com.common.DelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindServlet</servlet-name>
+    <servlet-class>com.common.FindServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sds</servlet-name>
+    <servlet-class>com.common.sds</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BianJi</servlet-name>
+    <servlet-class>com.common.BianJi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChaZhao</servlet-name>
+    <servlet-class>com.common.ChaZhao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XianShi</servlet-name>
+    <servlet-class>com.common.XianShi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XianShiCZ</servlet-name>
+    <servlet-class>com.common.XianShiCZ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BJfirst</servlet-name>
+    <servlet-class>com.common.BJfirst</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelServlets</servlet-name>
+    <servlet-class>com.common.DelServlets</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dd</servlet-name>
+    <servlet-class>com.common.dd</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>insertjl</servlet-name>
+    <url-pattern>/insertjl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dbconn</servlet-name>
+    <url-pattern>/dbconn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/DelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindServlet</servlet-name>
+    <url-pattern>/FindServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BianJi</servlet-name>
+    <url-pattern>/BianJi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChaZhao</servlet-name>
+    <url-pattern>/ChaZhao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XianShi</servlet-name>
+    <url-pattern>/XianShi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XianShiCZ</servlet-name>
+    <url-pattern>/XianShiCZ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BJfirst</servlet-name>
+    <url-pattern>/BJfirst</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelServlets</servlet-name>
+    <url-pattern>/DelServlets</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dd</servlet-name>
+    <url-pattern>/dd</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>zhuye.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
